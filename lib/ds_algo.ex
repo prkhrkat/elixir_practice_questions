@@ -2,22 +2,6 @@ defmodule DsAlgo do
   @moduledoc """
   Documentation for `DsAlgo`.
   """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> DsAlgo.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
-
-####################################
-
   @doc """
   Returns factorial of given number.
 
@@ -160,11 +144,6 @@ defmodule DsAlgo do
     ## Parameters
 
     - file_path: address of the file
-
-    ## Examples
-
-      iex> DsAlgo.check_subseq([1,2,3],[2,3])
-      true
   """
   def read_text(file_path) do
     file_path
